@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} !^sayonarane.net$ [NC]
+RewriteRule ^(.*)$ http://sayonarane.net/$1 [L,R=301]
