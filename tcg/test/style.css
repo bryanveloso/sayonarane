@@ -1,0 +1,40 @@
+h1.collection_title {
+	font-size: 12px;
+	font-weight: bold;
+	font-decoration: none;
+	margin: 0;
+  	margin-bottom: 7px;
+	padding: 0;
+  	text-align: center;
+  	color: #9C4F35;
+  	border-bottom: 1px dotted #9C4F35;
+  	border-top: 1px dotted #9C4F35;
+}
+
+h1.mastered_title {
+	font-size: 12px;
+	font-weight: bold;
+	font-decoration: none;
+	margin: 0;
+  	margin-bottom: 7px;
+	padding: 0;
+  	text-align: center;
+  	color: #9C4F35;
+  	border-bottom: 1px dotted #9C4F35;
+  	border-top: 1px dotted #9C4F35;
+}
+
+h3.log_title {
+	margin: 0px 10px 0px 10px;
+	padding: 0px 10px 0px 10px;
+	border-top: 1px dotted #9A8882;
+}
+
+div.log_month {
+	margin: 10px;
+	padding: 10px;
+	width: 410px;
+	height: 180px;
+	border: 1px solid #9A8882;
+	overflow: auto;
+}

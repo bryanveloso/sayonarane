@@ -1,0 +1,576 @@
+body { 
+	background: #bfbfbf url(../layout/bgpattern01.png);
+    font: 10px 'trebuchet ms', Arial, 'Helvetica Neue', sans-serif;
+	color: #333;
+	letter-spacing: .09em;
+    }
+
+a:link {
+	color: #e83351;
+	text-decoration: none;
+	padding-left: 2px;
+	padding-right: 2px;
+	font: 10px 'trebuchet ms', Arial, 'Helvetica Neue', sans-serif;
+	letter-spacing: 1px;
+	}
+
+a:active {
+	color: #e83351;
+	text-decoration: none;
+	padding-left: 2px;
+	padding-right: 2px;
+	font: 10px 'trebuchet ms', Arial, 'Helvetica Neue', sans-serif;
+	letter-spacing: 1px;
+	}
+
+a:visited {
+	color: #e83351;
+	text-decoration: none;
+	padding-left: 2px;
+	padding-right: 2px;
+	font: 10px 'trebuchet ms', Arial, 'Helvetica Neue', sans-serif;
+	letter-spacing: 1px;
+	}
+
+a:hover {
+	color: #e83351;
+	background: #dedede;
+	text-decoration: none;
+	border-bottom: 1px dashed;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 2px;
+	font: 10px 'trebuchet ms', Arial, 'Helvetica Neue', sans-serif;
+	letter-spacing: 1px;
+	cursor: help;
+	}
+	
+b {
+	color: #1369a0;
+	}
+	
+i {
+	color: #1369a0;
+	}
+	
+em {
+	color: #1369a0;
+	font-weight: bold;
+	}
+
+#container {
+	background: #bfbfbf;
+    margin: 0 auto;
+    position: relative;
+	min-height: 500px;
+    width: 800px;
+    }
+
+#container p {
+	padding: 3px 0 3px 0;
+	}  
+
+#header {
+    background: url(../layout/header01.png) no-repeat center top;
+    height: 355px;
+    }
+
+    #header h1, #header p { text-indent: -9999px; }
+
+#content {
+	position: absolute;
+    background: #bfbfbf url(../layout/contentbg01.png) no-repeat;
+	margin-top: -75px;
+	padding-left: 20px;
+	min-height: 500px;
+	width: 780px;
+    }
+
+#main {
+	margin-top: -5px;
+	margin-left: 210px;
+	padding: 0px 15px 15px 15px;
+	min-height: 500px;
+	width: 540px;
+	}
+
+/*#main td.tablekey1 {
+	color: #b4bbc1;
+	font: 10px 'trebuchet ms', arial, helvetica, sans-serif;
+	font-style: italic;
+	text-align: left;
+	letter-spacing: .09em;
+	padding: 3px 5px 3px 7px;
+	}
+
+#main td.tablekey2 {
+	color: #b4bbc1;
+	font: 10px 'trebuchet ms', arial, helvetica, sans-serif;
+	font-style: italic;
+	text-align: center;
+	letter-spacing: .09em;
+	padding: 3px 5px 3px 7px;
+	}
+
+
+#main td.description {
+	color: #1e5071;
+	font: 10px 'trebuchet ms', arial, helvetica, sans-serif;
+	letter-spacing: .09em;
+	background: #b4bbc1;
+	padding: 7px 5px 7px 7px;
+	}
+
+#main td.deckname {
+	color: #1e5071;
+	font: 10px 'trebuchet ms', arial, helvetica, sans-serif;
+	letter-spacing: .09em;
+	text-align: center;
+	background: #d2d6d9;
+	padding: 7px 5px 7px 7px;
+	width: 110px;
+	}
+
+#main td.cardamount {
+	color: #1e5071;
+	font: 10px 'trebuchet ms', arial, helvetica, sans-serif;
+	letter-spacing: .09em;
+	text-align: center;
+	background: #b4bbc1;
+	padding: 7px 5px 7px 7px;
+	width: 25px;
+	}
+
+#main td.tablehead {
+	color: #823488;
+	font: 12px 'trebuchet ms', arial, helvetica, sans-serif;
+	letter-spacing: 3px;
+	font-weight: bold;
+	background: #41779b;
+	padding: 5px 3px 5px 5px;
+	}
+	
+#main td a:	:link {
+	color: #0173a7;
+	text-decoration: none;
+	padding: 2px 3px 3px 3px;
+	font: 10px 'trebuchet ms', Arial, 'Helvetica Neue', sans-serif;
+	letter-spacing: 1px;
+	}
+
+#main td a:active {
+	color: #0173a7;
+	text-decoration: none;
+	padding: 2px 3px 3px 3px;
+	font: 10px 'trebuchet ms', Arial, 'Helvetica Neue', sans-serif;
+	letter-spacing: 1px;
+	}
+
+#main td a:visited {
+	color: #0173a7;
+	text-decoration: none;
+	padding: 2px 3px 3px 3px;
+	font: 10px 'trebuchet ms', Arial, 'Helvetica Neue', sans-serif;
+	letter-spacing: 1px;
+	}
+
+#main td a:hover {
+	color: #0173a7;
+	text-decoration: none;
+	border-bottom: 1px dashed;
+	font: 10px 'trebuchet ms', Arial, 'Helvetica Neue', sans-serif;
+	letter-spacing: 1px;
+	cursor: help;
+	}*/
+
+
+#main div.cardinfo {
+	margin-top: 10px;
+	margin-bottom: 25px;
+	line-height: 16px;
+	}
+
+#main img.filler {
+	background: #0e0e0e;
+	padding: 3px 3px 3px 3px;
+	margin-right: 5px;
+	}
+#main div.puzdeck {
+	line-height: 0px;
+	}
+
+#main td i {
+	color: #e83351;
+	}
+
+#main td em {
+	color: #1369a0;
+	font-weight: normal;
+	font-style: italic;
+	}
+
+#main div.members li i {
+	color: #e83351;
+	}
+
+#main div.members em {
+	color: #1369a0;
+	font-weight: normal;
+	font-style: italic;
+	}
+
+
+#main td.gamekey1 {
+	color: #823488;
+	font: 10px 'trebuchet ms', arial, helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: .09em;
+	background: #5f8aa7;
+	padding: 3px 5px 3px 7px;
+	}
+
+#main td.gamekey2 {
+	color: #823488;
+	font: 10px 'trebuchet ms', arial, helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: .09em;
+	background: #5f8aa7;
+	padding: 4px 3px 4px 4px;
+	}
+
+
+#main td.gdescription {
+	color: #1f323e;
+	font: 10px 'trebuchet ms', arial, helvetica, sans-serif;
+	letter-spacing: .09em;
+	background: #35698b;
+	padding: 4px 3px 4px 4px;
+	}
+
+#main td.gamename {
+	color: #1e5071;
+	font: 10px 'trebuchet ms', arial, helvetica, sans-serif;
+	letter-spacing: .09em;
+	text-align: center;
+	text-transform: uppercase;
+	background: #35698b;
+	padding: 4px 3px 4px 4px;
+	width: 120px;
+	}
+
+
+#main td.tablekey1 {
+	color: #e83351;
+	font: 10px 'trebuchet ms', arial, helvetica, sans-serif;
+	font-weight: bold;
+	text-align: left;
+	letter-spacing: .09em;
+	background: #0e0e0e;
+	padding: 3px 5px 3px 7px;
+	}
+
+#main td.tablekey2 {
+	color: #e83351;
+	font: 10px 'trebuchet ms', arial, helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: .09em;
+	background: #0e0e0e;
+	padding: 4px 3px 4px 4px;
+	}
+
+
+#main td.description {
+	color: #1f323e;
+	font: 10px 'trebuchet ms', arial, helvetica, sans-serif;
+	letter-spacing: .09em;
+	background: #dedede;
+	padding: 4px 3px 4px 4px;
+	}
+
+#main td.deckname {
+	color: #1e5071;
+	font: 10px 'trebuchet ms', arial, helvetica, sans-serif;
+	letter-spacing: .09em;
+	text-align: center;
+	text-transform: uppercase;
+	background: #dedede;
+	padding: 4px 3px 4px 4px;
+	width: 90px;
+	}
+
+#main td.cardamount {
+	color: #1f323e;
+	font: 10px 'trebuchet ms', arial, helvetica, sans-serif;
+	letter-spacing: .09em;
+	text-align: center;
+	background: #dedede;
+	padding: 4px 3px 4px 4px;
+	width: 40px;
+	}
+	
+#main td.worth {
+	color: #1f323e;
+	font: 10px 'trebuchet ms', arial, helvetica, sans-serif;
+	letter-spacing: .09em;
+	text-align: center;
+	background: #dedede;
+	padding: 4px 3px 4px 4px;
+	width: 40px;
+	}
+
+#main td.tablehead {
+	color: #1369a0;
+	font: 11px 'helvetica nueue', arial, 'trebuchet ms', sans-serif;
+	letter-spacing: 3px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 4px 3px 4px 4px;
+	}
+
+#main div.members {
+	margin: 0 auto;
+	width: 500px;
+	}
+
+#main .memberlist li { 
+	float: left;
+	width: 115px;
+	padding: 10px 5px;
+	}
+
+#main h2.memberhead {
+	color: #1369a0;
+	background: #dedede;
+	border-bottom: 2px #000 dashed;
+	font: 11px 'helvetica nueue', arial, 'trebuchet ms', sans-serif;
+	font-weight: bold;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	padding: 3px 0px 2px 5px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	}
+
+#main .memberlist li.member {
+	text-align: center;
+}
+
+#main .memberlist li.member a:link, .memberlist li.member a:visited {
+	color: #e83351;
+	text-decoration: none;
+	display: block;
+	border-bottom: 2px solid transparent;
+	padding: 4px 3px 4px 4px;
+	font: 10px 'trebuchet ms', Arial, 'Helvetica Neue', sans-serif;
+	letter-spacing: 1px;
+	}
+
+#main .memberlist li.member a:hover, .memberlist li.member a:active {
+	text-decoration: none;
+	display: block;
+	border-bottom: 2px #000 dashed;
+	background: #dedede;
+	padding: 4px 3px 4px 4px;
+	font: 10px 'trebuchet ms', Arial, 'Helvetica Neue', sans-serif;
+	letter-spacing: 1px;
+	cursor: help;
+	}
+	
+#main .memberlist ul li a:link, .memberlist ul li a:visited, .memberlist ul li a:hover, .memberlist ul li a:active {
+	color: #555;
+	font: 10px 'trebuchet ms', arial, helvetica, sans-serif;
+	letter-spacing: .09em;
+	text-align: center;
+	background: #dedede;
+	padding: 4px 3px 4px 4px;
+}
+
+#main .memberlist ul li {
+	padding: 3px 0px 3px 0px;
+	text-align: left;
+}
+
+#main .memberlist li a:link, .memberlist li a:visited {
+	color: #e83351;
+	text-decoration: none;
+	display: block;
+	border-bottom: 2px transparent;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font: 10px 'trebuchet ms', Arial, 'Helvetica Neue', sans-serif;
+	letter-spacing: 1px;
+	}
+
+#main .memberlist li a:hover, .memberlist li a:active {
+	color: #1c979c;
+	background: #000;
+	text-decoration: none;
+	display: block;
+	border-bottom: 2px dashed;
+	padding-top: 2px;
+	padding-bottom: 0px;
+	font: 10px 'trebuchet ms', Arial, 'Helvetica Neue', sans-serif;
+	letter-spacing: 1px;
+	cursor: help;
+	}
+
+
+#main .memberlist li a.memberimg {
+	background: transparent;
+	border-bottom: 2px solid transparent;
+	padding: 4px 3px 4px 4px;
+	text-align: center;
+}
+
+#main .memberlist li a.memberimg:hover {
+	background: transparent;
+	border-bottom: 2px solid transparent;
+	padding: 4px 3px 4px 4px;
+	text-align: center;
+}
+
+#info {
+	position: absolute;
+	top: -270px;
+	margin-left: 20px;
+    width: 175px;
+	color: #333;
+	font: 10px 'trebuchet ms', Arial, 'Helvetica Neue', sans-serif;
+	letter-spacing: 1px;
+	line-height: 15px;
+    }
+
+#info h2 {
+	color: #1c1c1c;
+    font: 12px 'helvetica nueue', arial, 'trebuchet ms', sans-serif;
+	font-weight: bold;
+    letter-spacing: 3px;
+    padding: 2px 5px 2px 2px;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	}
+	
+#info b {
+	color: #1c1c1c;
+	}
+
+#info em {
+	color: #1c1c1c;
+	font-weight: bold;
+	}
+    
+#sidebar {
+	position: absolute;
+	top: -90px;
+	padding-left: 15px;
+    width: 160px;
+	color: #333;
+	font: 10px 'trebuchet ms', Arial, 'Helvetica Neue', sans-serif;
+	letter-spacing: 1px;
+	line-height: 15px;
+    }
+
+#sidebar a:link {
+	color: #e83351;
+	text-decoration: none;
+	display: block;
+	border-bottom: 2px dashed transparent;
+	padding-left: 20px;
+	font: 10px 'trebuchet ms', Arial, 'Helvetica Neue', sans-serif;
+	letter-spacing: 1px;
+	}
+
+#sidebar a:active {
+	color: #e83351;
+	text-decoration: none;
+	display: block;
+	border-bottom: 2px dashed;
+	padding-left: 20px;
+	font: 10px 'trebuchet ms', Arial, 'Helvetica Neue', sans-serif;
+	letter-spacing: 1px;
+	}
+
+#sidebar a:visited {
+	color: #e83351;
+	text-decoration: none;
+	display: block;
+	border-bottom: 2px dashed transparent;
+	padding-left: 20px;
+	font: 10px 'trebuchet ms', Arial, 'Helvetica Neue', sans-serif;
+	letter-spacing: 1px;
+	}
+
+#sidebar a:hover {
+	color: #e83351;
+	background: #000;
+	text-decoration: none;
+	display: block;
+	border-bottom: 2px dashed;
+	padding-bottom: 0px;
+	font: 10px 'trebuchet ms', Arial, 'Helvetica Neue', sans-serif;
+	letter-spacing: 1px;
+	cursor: help;
+	}
+
+#footer {
+	background: #bfbfbf;
+	color: #333;
+	font: 8.5px 'trebuchet ms', Arial, 'Helvetica Neue', sans-serif;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 210px;
+	padding: 5px 15px 0px 15px;
+	width: 540px;
+	}
+
+#footer p {
+	padding-top: 5px;
+	}
+
+h1 {
+	color: #e83351;
+	background: #dedede;
+	border-bottom: 2px #000 dashed;
+	font: 16px 'helvetica nueue', arial, 'trebuchet ms', sans-serif;
+	font-weight: bold;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	padding: 3px 0px 2px 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	}
+
+h2 {
+    color: #1c979c;
+    font: 12px 'helvetica nueue', arial, 'trebuchet ms', sans-serif;
+	font-weight: bold;
+    letter-spacing: 3px;
+    padding: 2px 5px 2px 2px;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	}
+
+h3 {
+	color: #1369a0;
+	background: #dedede;
+	border-bottom: 2px #000 dashed;
+	font: 11px 'helvetica nueue', arial, 'trebuchet ms', sans-serif;
+	font-weight: bold;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	padding: 3px 0px 2px 5px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	}
+
+h5 {
+    font: 14px 'helvetica nueue', arial, 'trebuchet ms', sans-serif;
+	font-weight: bold;
+    letter-spacing: 3px;
+    padding: 5px 2px 2px 2px;
+	text-transform: uppercase;
+	}

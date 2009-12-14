@@ -1,0 +1,36 @@
+/* 
+-----------------------------------------------
+Basics Stylesheet
+Author:   Bryan Veloso
+
+This stylesheet serves as the nuts & guts for
+all the basics of this design, including some 
+quirks, tweaks and otherwise tasty stuff that 
+I've found during my travels.
+
+This structure is based off of Jeff Croft,
+Nathan Borror & World Online's CSS Framework.
+----------------------------------------------- */
+
+@import url("reset.css");       /* Reset */
+@import url("master.css");      /* Master */
+
+
+/* Global Super Classes 
+----------------------------------------------- */
+
+body                { text-shadow: #000 0 0 0; }
+
+.hide               { display: none; }
+.invisible          { visibility: hidden; }
+
+.left               { float: left; }
+.right              { float: right; }
+
+.clearfix:after     { clear: both; content: ".";  display: block; height: 0; visibility: hidden; }
+.clearfix           { display: inline-block; }
+
+/* Hides from IE-mac \*/
+* html .clearfix    { height: 1%; }
+.clearfix           { display: block; }
+/* End hide from IE-mac */

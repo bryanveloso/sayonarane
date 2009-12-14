@@ -1,0 +1,2 @@
+<b>Heart Station</b> TCG is a product of <a href="http://revyver.com/">Revyver</a>. Content &amp; design is © iceymoon.
+<p>All trademarks &amp; copyrighted material are the property of their respective owners.</p>
