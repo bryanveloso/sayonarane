@@ -27,7 +27,7 @@
 		  <div id="main">
 			<h1>Members</h1>
 		  <?
-			include("/home/237/domains/sayonarane.net/html/station/hsadmin/members/dbinfo.php");
+			include("/home/revyver/webapps/sayonarane/station/hsadmin/members/dbinfo.php");
 			mysql_connect($hostname,$user,$password);
 			@mysql_select_db($database) or die( "Unable to select database");
 			$query="SELECT * FROM " . $tablename . " ORDER BY level ASC, name ASC";

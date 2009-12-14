@@ -194,11 +194,11 @@
 		</div>
 
 		<div id="footer">
-		<?php include "/home/237/domains/sayonarane.net/html/footer.php" ?>
+		<?php include "/home/revyver/webapps/sayonarane/footer.php" ?>
 	  </div>
 
 		<div id="sidebar">
-		<?php include "/home/237/domains/sayonarane.net/html/sidebar.php" ?>
+		<?php include "/home/revyver/webapps/sayonarane/sidebar.php" ?>
 	  </div>
 
 	</div>

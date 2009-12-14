@@ -22,7 +22,7 @@
 
 <div id="container">
 
-	<?php include "/home/237/domains/sayonarane.net/html/header.php" ?>
+	<?php include "/home/revyver/webapps/sayonarane/header.php" ?>
 
 	<div id="content">
 		<div id="main">
@@ -849,11 +849,11 @@
 		</div>
 
 		<div id="footer">
-		<?php include "/home/237/domains/sayonarane.net/html/footer.php" ?>
+		<?php include "/home/revyver/webapps/sayonarane/footer.php" ?>
 	  </div>
 
 		<div id="sidebar">
-		<?php include "/home/237/domains/sayonarane.net/html/sidebar.php" ?>
+		<?php include "/home/revyver/webapps/sayonarane/sidebar.php" ?>
 	  </div>
 
 	</div>
